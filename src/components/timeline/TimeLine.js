@@ -67,15 +67,15 @@ const TimeLine = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        Hello, I'm Babatunde, the founder of MetalBrain. From Marketing Manager
+        Hello, I am Babatunde, the founder of MetalBrain. From Marketing Manager
         to software engineer, my journey signifies the fusion of two worlds.
         Transitioning from crafting marketing strategies to writing code was
-        more than a career shift—it was a revelation. With MetalBrain, I've
+        more than a career shift—it was a revelation. With MetalBrain, I have
         harnessed my dual expertise to create innovative solutions that bridge
         technology and strategy. This startup embodies the synergy between
         software engineering and strategic thinking, resulting in products that
         reshape experiences. My unique trajectory from marketing to technology
-        is the foundation of MetalBrain's creative and strategic approach.
+        is the foundation of MetalBrains creative and strategic approach.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

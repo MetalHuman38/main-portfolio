@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 import {
   BlogCard,
@@ -18,7 +19,7 @@ import {
   SectionDivider,
   SectionTitle,
 } from "../../styles/GlobalComponents";
-import { projects } from "../../constants/constants";
+import { projects } from "../../constants/Constants";
 
 const Project = () => (
   <Section nopadding id="Project">
@@ -28,7 +29,7 @@ const Project = () => (
       {projects.map(
         ({ id, image, title, description, tags, source, visit }) => (
           <BlogCard key={id}>
-            <img src={image} alt="projectimg" />
+            <Image src={image} alt="projectimg" width={400} height={300} />
             <TitleContent>
               <HeaderThree title="true">{title}</HeaderThree>
               <Hr />
